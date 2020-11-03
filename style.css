@@ -29,10 +29,30 @@
   background-color: orange; /* 背景色orange */
 }
 
+.main-visual-content {
+  width: 350px; /* 横幅350px */
+  height: 300px; /* 親の高さに揃える */
+  background-color: gold; /* 背景色gold */
+}
+
 .main {
-  width: 100%; /* 横幅いっぱい */
+  width: 840px; /* 横幅840px */
+  /* background-color,heightの指定を解除 */
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 横並び・中央寄せが可能 */
+  margin: 0 auto; /* 中央寄せ (左右に余白がないとできない) */
+}
+
+.blog {
+  width: 600px; /* 横幅600px */
   height: 1400px; /* 高さ1400px */
-  background-color: green; /* 背景色green */
+  background-color: limegreen; /* 背景色limegreen */
+}
+
+.sidebar {
+  width: 240px;
+  height: 1400px;
+  background-color: palegreen;
 }
 
 .footer {
